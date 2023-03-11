@@ -19,7 +19,7 @@ o1 = fill.boxplot()
 
 # E_Plug have outliers in the plot. 
 q1 = fill['E_Plug'].quantile(0.25)
-q2 = fill['E_Plug'].quantile(0.75)
+q3 = fill['E_Plug'].quantile(0.75)
 
 # q1 = 19
 # q3 = 33
